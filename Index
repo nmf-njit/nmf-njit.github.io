@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Nicholas Millar-Falzo</title>
+</head>
+
+<body>
+    <h1>About Me</h1>
+    <p>Nicholas is an Architecture Major</p>
+    <img src="Picture%20of%20Me.jpg" alt="Picture of Nicholas" width="200" height="200">
+    <p>Nicholas is from Rockaway NJ, and is Currently in his fifth and final year at NJIT. <br>Originally he spent two years in the Civil Engineering Program then transfered to the Architecture Program</p>
+    <img src="Project%20Example.JPG" alt="Nicholas Project Axon" width="350" height="300">
+    <img src="Project%20Example%202.JPG" alt="Nicholas Project Axon" width="400" height="300">
+    <b>Two projects Nicholas worked on during his time at NJIT</b>
+    <p>Some of his interests are:</p>
+    <ol>
+        <li>3D Modeling</li>
+        <li>Video Games</li>
+        <li>Swimming</li>
+        <li>Dogs</li>
+    </ol>
+
+    <footer>
+        <p>Links:</p>
+        <ol>
+            <li><a href="Better Resume.html">Link to my Resume</a>
+            <li><a href="https://www.njit.edu/">Visit njit.edu</a></li>
+        </ol>
+    </footer>
+</body>
+
+</html>
