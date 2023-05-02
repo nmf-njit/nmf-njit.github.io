@@ -1,0 +1,46 @@
+ head {
+     color: black
+ }
+
+ div {
+     color: black;
+     font-size: 18px;
+     margin: 0px;
+
+ }
+
+ section {
+     color: black;
+     font-size: 18px;
+     margin: 0px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: flex-start;
+ }
+
+ header {
+     font-size: 100px;
+     outline: 5px solid black;
+     background-color: gainsboro;
+     margin: 10px;
+     padding: 5px
+ }
+
+ body {
+     outline: 5px solid black;
+     background-color: white;
+     padding: 5px;
+     margin: 10px
+ }
+
+ footer {
+     outline: 5px solid black;
+     background-color: gainsboro;
+     padding: 5px;
+     margin: 10px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+ }
