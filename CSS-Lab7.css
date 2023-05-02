@@ -1,46 +1,124 @@
- head {
-     color: black
- }
+@media screen and (min-width:1200px) {
+    body {
+        outline: 5px solid black;
+        background-color: skyblue;
+        padding: 5px;
+    }
 
- div {
-     color: black;
-     font-size: 18px;
-     margin: 0px;
+    h1 {
+        font-size: 70px
+    }
 
- }
+    header {
+        outline: 5px solid black;
+        background-color: gainsboro;
+        margin: 10px;
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 
- section {
-     color: black;
-     font-size: 18px;
-     margin: 0px;
-     display: flex;
-     flex-direction: row;
-     flex-wrap: nowrap;
-     justify-content: flex-start;
- }
+    main {
+        outline: 5px solid black;
+        text-align: center;
+        padding: 5px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
 
- header {
-     font-size: 100px;
-     outline: 5px solid black;
-     background-color: gainsboro;
-     margin: 10px;
-     padding: 5px
- }
+    }
 
- body {
-     outline: 5px solid black;
-     background-color: white;
-     padding: 5px;
-     margin: 10px
- }
+     div {
+        font-size: 40px; text-align: center;
+        margin: 20px;
+       
+    }
 
- footer {
-     outline: 5px solid black;
-     background-color: gainsboro;
-     padding: 5px;
-     margin: 10px;
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     justify-content: space-evenly;
- }
+    footer {
+        outline: 5px solid black;
+        background-color: gainsboro;
+        padding: 5px;
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    p {
+        font-size: 25px;
+        color: blue;
+    }
+
+    a {
+        font-size: 25px;
+        color: black;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        outline: 3px solid black;
+        background-color: darkseagreen;
+        padding: 3px;
+    }
+
+    h1 {
+        font-size: 40px
+    }
+
+    header {
+        outline: 3px solid black;
+        background-color: gainsboro;
+        margin: 5px;
+        padding: 3px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    div {
+        font-size: 20px; text-align: center;
+        margin: 10px;
+       
+    }
+        main {
+            outline: 3px solid black;
+            text-align: center;
+            padding: 3px;
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+        }
+
+        footer {
+            outline: 3px solid black;
+            background-color: gainsboro;
+            padding: 3px;
+            margin: 5px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        p {
+            font-size: 15px;
+            color: blue;
+        }
+
+        a {
+            font-size: 15px;
+            color: black;
+        }
+
+    }
